@@ -173,7 +173,7 @@
           TZ: "Etc/UTC"
           SERVERURL: "auto"
           SERVERPORT: "51820"
-          ALLOWEDIPS: "{{ docker_pihole }}"
+          ALLOWEDIPS: "0.0.0.0/0"
           PEERS: "{{ wireguard_peers }}"
           PEERDNS: "{{ docker_pihole }}"
           INTERNAL_SUBNET: "{{ wireguard_network }}"
